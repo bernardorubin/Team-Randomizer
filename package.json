@@ -1,0 +1,22 @@
+{
+  "name": "TeamRandomizer",
+  "version": "0.0.1",
+  "description": "Team Randomizer app with Express",
+  "main": "app.js",
+  "repository": {},
+  "author": "bern",
+  "scripts": {
+    "start": "nodemon app.js",
+    "debug": "node --inspect app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

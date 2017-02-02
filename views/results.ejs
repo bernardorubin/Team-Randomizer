@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Team Picker PRO</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  </head>
+  <body>
+      <h1>Here are your Teams</h1>
+      <% for (let i= 0; i< status.length; i++) { %>
+      <h1>Team <%= i+1 %> -> <%= status[i] %></h1>
+      <% }%>
+  </body>
+</html>
